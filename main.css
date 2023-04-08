@@ -1,0 +1,125 @@
+body {
+  background-color: green;
+}
+
+header {
+  color: brown;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px; 
+  margin: 1px;
+}
+
+main {
+  background-color: blue;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+footer {
+	background-color: brown;
+	border-radius: 10px;
+	margin: 1px;
+}
+
+main {
+	margin: 1px;
+}
+
+aside {
+	background-color: brown;
+	border-radius: 10px;
+}
+
+h1 {
+  font-size: 50;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  display: inline;
+}
+
+h3 {
+  font-size: 35;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 18;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav ul {
+	margin: 0px;
+	padding:0px;
+	overflow: hidden;
+}
+
+nav li {
+  border-style: solid;
+  border-width: 2px;
+  accent-color: red;
+  background-color: blue;
+  list-style-type: none;
+  float: left;
+  width: 15%;
+  padding: 16px;
+}
+
+nav li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li:hover {
+	background-color: black;
+}
+
+.active {
+	background-color: dark blue;
+}
+
+table {
+	font-family: "Times New Roman", Times, serif;
+	border-collapse: collapse;
+}
+
+table th {
+	border: 2px solid;
+	background-color: brown;
+	color: white;
+}
+
+table th {
+	border: 2px solid;
+}
+
+table tr:nth-child {
+	background-color: #F2F2F2;
+}
+
+table tr:hover {
+	background-color: brown;
+}
+
+img.websitelogo {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-right: 10px;
+}
+
+fieldset {
+font-size: 18;	
+padding:10px;
+}
+
+input{
+	margin: 5px;
+}
+
+div.carousel-item {
+	width: 75%;
+}
