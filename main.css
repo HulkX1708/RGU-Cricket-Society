@@ -233,10 +233,33 @@ div.loginform {
 	margin-bottom: 10px;
 }
 
+/*This section is for the video and points at the rules page*/
+
 iframe {
 	margin-left: 10px;
 }
 
 dl {
 	  margin-left: 10px;
+}
+
+/*This section is for the buttons avaiable at the history page*/
+
+div.historybuttons {
+	  margin: auto;
+      width: 50%;
+      padding: 10px;
+}
+
+/*This section is for the pictures avaiable at the equipment page*/
+
+.equipment-img {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.equipment-img:hover{
+	border: 4px solid red;
 }
